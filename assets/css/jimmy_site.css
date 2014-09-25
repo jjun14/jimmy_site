@@ -1,0 +1,90 @@
+html, body {
+   height: 100%;
+   margin: 0px;
+}
+
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color: rgba(132,132,132,0.8);
+}
+
+.nav-item {
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 11%;
+  margin-right: 20px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.nav-item:first-child {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 13%;
+  color: white;
+}
+
+.big-container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+#placeholder {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+}
+
+#about-container {
+  position: relative;
+  width: 100%;
+  height: 540px;
+  z-index: -2;
+  top: -6px;
+  background-color: rgba(255,0,0,0.5);
+}
+
+#work-container {
+  position: relative;
+  width: 100%;
+  height: 540px;
+  z-index: -2;
+  top: -6px;
+  background-color: rgba(0,0,255,0.5);
+}
+
+#contact-container {
+  position: relative;
+  width: 100%;
+  height: 540px;
+  z-index: -2;
+  top: -6px;
+  background-color: rgba(0,255,0,0.5);
+}
+
+/* Miscellaneous */
+
+.flip-vertical {
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    transform: scaleY(-1);
+    -ms-filter: flipv; /*IE*/
+    filter: flipv; /*IE*/
+}
+
+.flip-horizontal {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph; /*IE*/
+    filter: fliph; /*IE*/
